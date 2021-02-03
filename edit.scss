@@ -1,0 +1,47 @@
+.doctors-page {
+    margin: 0 -40px;
+
+    &__item {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 40px;
+
+        & > * {
+            margin: 0 auto;
+        }
+
+        &-img {
+            width: 250px;
+            height: 250px;
+            border: 1px solid transparent;
+            border-radius: 100%;
+            overflow: hidden;
+        }
+        
+        
+        p {
+            top: -45px;
+        }
+    }
+    &__instagram-btn {
+        display: block;
+        text-align: center;
+        transform: translateY(-45%);
+    }
+
+    &__name {
+        margin-top: 0;
+        line-height: 1.2;
+        color: #2B295F;
+    }
+
+    &__link {
+        margin: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

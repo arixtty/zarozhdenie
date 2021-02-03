@@ -1,0 +1,21 @@
+.doctors-item__image {
+  width: 250px;
+  height: 250px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.doctors-item__instagram-btn {
+  display: block;
+  transform: translateY(-82%);
+}
+.doctors-item__name {
+  margin-bottom: 0;
+  position: relative;
+  top: -25px;
+}
+.doctors-item p {
+  top: -25px;
+}
+
+/*# sourceMappingURL=edit.css.map */
