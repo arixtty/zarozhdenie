@@ -1,5 +1,5 @@
 {
-  "name": "zarozhdenie",
+  "name": "TITLE",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -13,9 +13,9 @@
   },
   "scripts": {
     "watch:sass": "sass --watch sass/main.scss:css/style.css",
-    "devserver": "browser-sync --watch",
+    "devserver": "browser-sync start --server --watch --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --browser 'Google Chrome'",
     "start": "npm-run-all --parallel watch:sass devserver",
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "compile:sass": "sass sass/main.scss css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
     "compress:css": "sass css/style.prefix.css:css/style.css --type compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
