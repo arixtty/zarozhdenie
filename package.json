@@ -12,7 +12,7 @@
     "sass": "^1.26.12"
   },
   "scripts": {
-    "watch:sass": "sass --watch edit.scss edit.dev.css",
+    "watch:sass": "sass --watch edit.scss doctors-page.css",
     "devserver": "browser-sync start --server --watch --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --browser 'Google Chrome' --index 'doctors_page.html'",
     "start": "npm-run-all --parallel watch:sass devserver",
     "compile:sass": "sass edit.scss style.comp.css",

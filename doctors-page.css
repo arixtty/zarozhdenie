@@ -1,0 +1,41 @@
+.doctors-page {
+  margin: 0 -40px;
+}
+.doctors-page__item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 40px;
+}
+.doctors-page__item > * {
+  margin: 0 auto;
+}
+.doctors-page__item-img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.doctors-page__item p {
+  top: -45px;
+}
+.doctors-page__instagram-btn {
+  display: block;
+  text-align: center;
+  transform: translateY(-45%);
+}
+.doctors-page__name {
+  margin-top: 0;
+  line-height: 1.2;
+  color: #2B295F;
+}
+.doctors-page__link {
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=doctors-page.css.map */
